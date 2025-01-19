@@ -1,15 +1,28 @@
-# Nexus-Mod---Auto-Click-on-Slow-Download
-using the webbajack application in the free version of nexus mod, when downloading a large number of mods you need to press the "slow download" button every time you download, this script makes this process automatic. With this you can go to sleep while your mods are downloaded.
+# Nexus Mod - Auto Click on Slow Download  
 
-To use it you need to have Python installed
-and the pyautogui lib.
+Automate the download process on Nexus Mod! 🎮  
 
+## 📌 About the Project  
+
+If you're using [Wabbajack](https://www.wabbajack.org/) with the free version of Nexus Mod, you know how tedious it is to manually click the **"Slow Download"** button every time a mod downloads.  
+
+This script solves that problem by automatically clicking the button when needed. Now, you can leave your downloads running while you do other things—or even sleep! 😴💤  
+
+---
+
+## 🚀 How to Use  
+
+### 1️⃣ Requirements  
+✔️ **Python** must be installed on your system.  
+✔️ Install the `pyautogui` library:  
+
+```sh
 pip install pyautogui
-on windows
 
-To use, download the script, save it in a folder, take a screenshot of only the button you want to click and save it in the same folder as the script with the name "slow_download.png"
+### 2️⃣ Setup
+✔️ Download the script and save it in a folder.
+✔️ Take a screenshot of the "Slow Download" button and save the image in the same folder as the script with the name:
+**slow_download.png**
 
-run the script with the command
-
+Run the script with command
 python autoclick.py
-
