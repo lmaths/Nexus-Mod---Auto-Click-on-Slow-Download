@@ -12,17 +12,23 @@ This script solves that problem by automatically clicking the button when needed
 
 ## 🚀 How to Use  
 
-### 1️⃣ Requirements  
+### Requirements  
 ✔️ **Python** must be installed on your system.  
 ✔️ Install the `pyautogui` library:  
 
 ```sh
 pip install pyautogui
+```
 
-### 2️⃣ Setup
-✔️ Download the script and save it in a folder.
-✔️ Take a screenshot of the "Slow Download" button and save the image in the same folder as the script with the name:
-**slow_download.png**
+### Setup  
+✔️ Download the script and save it in a folder.  
+✔️ Take a screenshot of the "Slow Download" button and save the image in the same folder as the script with the name:  
+**slow_download.png**  
 
-Run the script with command
+### Running the Script  
+Run the script with the following command:  
+
+```sh
 python autoclick.py
+```
+
